@@ -1,0 +1,132 @@
+body {
+    min-width: 200px;
+    width: 70%;
+    margin: auto;
+    background-color:slategrey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main {
+    display: grid;
+}
+
+main > div {
+    display: grid;
+   
+}
+
+main > div > * {
+    padding: 10px;
+}
+
+.general {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.info{
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+.scout {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.sport {
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+main > div > article {
+    border: 3px solid red;
+}
+
+/* General */
+
+.general ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.general ul li {
+    list-style: "⇒";
+}
+
+.general ul li span {
+    /* text-align: center; */
+    display: block;
+    margin-left: 5px;
+}
+
+/* Parcours */
+
+/* fieldset */
+
+fieldset {
+    /* background & espacement */
+
+    padding: 5px;
+    
+    background-color: rgb(32, 32, 32);
+    
+    /* Texte */
+    
+    color: rgb(100, 180, 50);
+}
+
+.info fieldset{
+    border:1px solid black;
+    transition: transform .2s ease;
+    overflow: hidden;
+    
+}
+
+.info fieldset:hover {
+    transform: scale(1.02);
+}
+
+.info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.info h4{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: 0 0 10px rgba(100, 180, 50, 0.5);
+}
+
+/* scouts */
+.scout{
+
+}
+
+/* sport */
+
+.sport fieldset{
+    border:1px solid black;
+    transition: transform .2s ease;
+    overflow: hidden;
+}
+
+.sport fieldset:hover {
+    transform: scale(1.02);
+}
+
+.sport ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sport h4{
+    margin-bottom: 0;
+    margin-top: 0;
+}
