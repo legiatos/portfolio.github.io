@@ -50,14 +50,14 @@ nav {
 }
 
 /* Taille des textes harmonisée */
-p {
-    font-size: large;
+p, a {
+    font-size: 1.25em;
 }
 
 h4 {
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: xx-large;
+    font-size: 1.75em;
 }
