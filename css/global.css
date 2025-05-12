@@ -48,3 +48,16 @@ nav li {
 nav {
     margin: auto;
 }
+
+/* Taille des textes harmonisée */
+p {
+    font-size: large;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: xx-large;
+}

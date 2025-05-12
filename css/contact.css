@@ -85,13 +85,6 @@ table * {
 }
 
 
-article > p {
-    margin: 0 0 10px 0;
-    padding: 10px;
-    color: #00ff00; /* Classic green text, often used in SQL-style output */
-    border: 1px solid #00ff00; /* Border to match the color of the text */
-    border-radius: 5px; /* Rounded corners for the box */
-    white-space: pre-wrap; /* Preserve spacing and line breaks */
-    word-wrap: break-word; /* Ensure it doesn't overflow */
-    font-size: 16px; /* Ensure the text is readable */
+article>h4 {
+    margin: 0;
 }
