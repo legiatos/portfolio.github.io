@@ -28,24 +28,39 @@ main > div > * {
     grid-row: 1;
 }
 
+/* grille */
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0px;
+}
+
+.general {
+    grid-column: span 3 / span 3;
+}
+
 .info{
-    grid-column: 1;
-    grid-row: 2/4;
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
 }
 
 .scout {
-    grid-column: 2/3;
-    grid-row: 2;
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
 }
 
 .sport {
-    grid-column: 2/3;
-    grid-row: 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 2;
 }
 
-main > div > article {
+/* main > div > article {
     border: 3px solid red;
-}
+} */
 
 /* General */
 
