@@ -26,6 +26,10 @@ article p {
     color: rgb(100, 180, 50); /* Green text color for paragraphs */
 }
 
+article ol li {
+    padding: revert;
+}
+
 /* Main content styling */
 main {
     padding: 20px;
@@ -43,53 +47,5 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-/* Harmonize table styles (if any) */
-.ascii-table-container {
-    display: inline-block;
-    margin-top: 20px;
-}
-
-.ascii-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: monospace;
-    background-color: rgb(32, 32, 32); /* Matching dark background for table */
-    color: rgb(100, 180, 50); /* Green text color in the table */
-    border-bottom: 1px solid rgb(100, 180, 50); /* Green border color */
-}
-
-.ascii-table th, .ascii-table td {
-    padding: 12px;
-    text-align: left;
-    border-left: 1px solid rgb(100, 180, 50); /* Green border color */
-    border-right: 1px solid rgb(100, 180, 50); /* Green border color */
-}
-
-.ascii-table th {
-    border-top: 1px solid rgb(100, 180, 50); /* Green border color */
-    border-bottom: 1px solid rgb(100, 180, 50); /* Green border color */
-}
-
-.ascii-table td {
-    border-top: 1px solid rgb(100, 180, 50); /* Green border color */
-}
-
-.ascii-table tbody tr:last-child td {
-    border-bottom: 1px solid rgb(100, 180, 50); /* Green bottom border */
-}
-
-.ascii-table thead {
-    background-color: rgb(32, 32, 32); /* Dark background for the header */
-    font-weight: bold;
-}
-
-.ascii-table tbody {
-    background-color: rgb(40, 40, 40); /* Slightly lighter for the body */
-}
-
-.ascii-table tr:first-child th {
-    border-top: 2px solid rgb(100, 180, 50); /* Green top border */
+    text-decoration: none;
 }

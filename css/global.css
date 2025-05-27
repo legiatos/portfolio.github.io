@@ -1,7 +1,7 @@
 /* Global Styles */
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace; /* Consistent font family */
 }
@@ -14,7 +14,7 @@ body {
 }
 
 /* Harmonized Typography */
-p, a {
+p, a, li {
     font-size: 1.25em; /* Consistent font size for paragraphs and links */
 }
 
